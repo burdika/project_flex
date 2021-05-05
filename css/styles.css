@@ -1,0 +1,42 @@
+
+.post-content{
+    display: flex;
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.small-pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictures img {
+    width: 25%;
+    padding: 15px;
+  }
+
+.post-content p{
+    width: 570px;
+}
